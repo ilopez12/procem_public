@@ -1,0 +1,733 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+p {
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+.bodycontc{
+        background-image: url(../../img/procem/bannercontactenos.png);
+    background-repeat: initial;
+    background-repeat-y: inherit;
+    background-position-x: inherit;
+}
+
+.pcontacto{
+    background-color: #00c3c6;
+    border-radius: 5px;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+}
+
+h3,
+strong {
+    color: #1B4F72;
+}
+
+svg {
+    font-weight: bold;
+    max-width: 600px;
+    height: auto;
+}
+
+.nav-is {
+    font-size: 15px;
+    font-weight: inherit;
+}
+
+.cajapago {
+    border: 1px solid rgba(0, 0, 0, .1);
+    margin-top: 15px;
+}
+
+.padd-all {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.page-footer {
+    color: white;
+    background-image: url(img/f-icons/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caja {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.texto1 {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: bolder;
+    color: white;
+    border-bottom-style: double;
+    border-top-style: double;
+    padding: 20px;
+}
+
+.texto2 {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    /* font-size: 50px; */
+    font-family: fantasy;
+    font-weight: bolder;
+    color: white;
+    /* padding: 20px;
+    padding-top: 20px; */
+    height: 100%;
+}
+
+.texto_eventos {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: bolder;
+    color: white;
+    padding: 10px;
+}
+
+#navbar {
+    overflow: hidden;
+}
+
+.divnavbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.dona {
+    background-color: #1d3ad9;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: black;
+}
+
+.culturas{
+    box-shadow: 9px 9px 4px 0px rgb(0 0 0 / 22%);
+    border-radius: 50%;
+}
+.panelsombreado {
+    border-bottom-style: inset;
+    border-top-style: inset;
+    padding: 20px;
+    background-color: white;
+    margin-top: 3%;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.panelsombreado .container p {
+    font-weight: bold;
+    color: #000000;
+}
+
+.panelsombreado .container h3 {
+    font-weight: bold;
+    color: #1B4F72;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.general a {
+    text-align: center;
+}
+
+.sombra {
+    box-shadow: 0 5px 25px 0 rgba(0, 41, 83, 0.6);
+}
+
+.back1 {
+    background-color: #7FB3D5;
+}
+
+.plearning_banner {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.bannerdonaciones {
+    background-image: url(../img/procem/dona.jpg);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.none {
+    background-size: cover;
+    background-attachment: fixed;
+    background: radial-gradient(circle, rgba(2, 37, 61, 1) 0%, rgba(27, 79, 114, 1) 35%, rgba(37, 93, 105, 1) 100%);
+    color: white;
+}
+
+.none2 {
+    background-image: url('../img/culturaempresarial/baner4.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.boton {
+    color: #fff !important;
+    padding: 0.5em 1.2em;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+}
+
+.boton:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 1s ease;
+}
+
+.boton:hover:before {
+    width: 100%;
+}
+
+.navbarventas {
+    background-color: #1B4F72;
+    height: 70px;
+    box-shadow: 0 5px 25px 0 rgba(0, 41, 83, 0.6);
+}
+
+.navbarventas a {
+    color: white;
+}
+
+.navbarventas li:hover {
+    list-style: none;
+    background-color: #4487b4;
+}
+
+.padd-img {
+    padding: 20px;
+}
+
+.padd-img a {
+    padding: 15px;
+}
+
+.categorias {
+    text-align: center;
+    padding: 50px;
+    border-bottom-style: ridge;
+    border-color: #1B4F72;
+}
+
+.categoriash2 {
+    border-bottom-style: none;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.paddlr {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.general {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/*IMAGENES*/
+
+.imagen_galeria {
+    width: 95%;
+    padding: 5px;
+    height: 300px;
+object-fit: cover;
+}
+
+.img-banner {
+    width: 100%;
+object-fit: cover;
+}
+
+.hide {
+    display: none;
+}
+
+.mostrar {
+    padding: 50px;
+    width: 100%;
+}
+
+.caja_galeria {
+    position: relative;
+}
+
+.texto_galeria {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    font-size: 16px;
+    color: white;
+    border-bottom: aquamarine;
+    border-bottom-style: double;
+    border-top-style: double;
+    border-bottom-color: #1B4F72;
+    border-top-color: #1B4F72;
+    width: 50%;
+}
+
+.texto_galeria2 {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    font-size: 16px;
+    color: white;
+    border-bottom: aquamarine;
+    border-bottom-color: aquamarine;
+    border-bottom-style: none;
+    border-bottom-style: double;
+    border-top-style: double;
+    border-bottom-color: #1B4F72;
+    border-top-color: #1B4F72;
+    width: 65%;
+    font-weight: bold;
+}
+
+
+/* FIN IMAGENES */
+
+.trapecio {
+    width: 100%;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #428bca;
+}
+
+#carrito {
+    /* border-left-style: outset; */
+    padding: 20px;
+    border: 0;
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+    border-left: 1px solid rgba(0, 0, 0, .1);
+}
+
+
+/* MEDIA QUERYS*/
+
+@media only screen and (max-width: 767px) {
+    .principal2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 8px;
+        text-align: center;
+    }
+    .caja {
+        position: relative;
+    }
+    .texto1 {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        font-size: 20px;
+        color: white;
+        border-bottom: aquamarine;
+        border-bottom-style: double;
+        border-top-style: double;
+        border-bottom-color: #1B4F72;
+        border-top-color: #1B4F72;
+        padding: 10px;
+    }
+    .texto2 h1 {
+        font-size: 15px;
+    }
+    .plearning_banner2 {
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 150px;
+        width: 100%;
+        opacity: 0.7;
+        filter: blur(6px);
+    }
+    .texto_eventos {
+        position: absolute;
+        top: 5%;
+        left: 3%;
+        font-size: 15px;
+        font-family: fantasy;
+        font-weight: bolder;
+        color: black;
+        padding: 10px;
+    }
+    .texto2 {
+        position: absolute;
+        top: 15%;
+        left: 25%;
+        font-size: 15px;
+        font-family: fantasy;
+        font-weight: bolder;
+        color: white;
+        /* padding: 20px;
+    padding-top: 20px; */
+        height: 100%;
+    }
+    .texto_eventos p {
+        font-size: 15px;
+    }
+    .hidden {
+        display: none;
+    }
+    .principal {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .redicon {
+        width: 20px;
+        height: 20px;
+    }
+    .click {
+        width: 60px;
+        height: 60px;
+    }
+    .icop {
+        width: 55%;
+    }
+    .icoresp {
+        width: 150px;
+    }
+    .lineas {
+        width: 100%;
+    }
+    .img-ino {
+        width: 30px;
+        height: 30px;
+    }
+    .imagen_donaciones {
+        width: 100%;
+        height: 100%;
+    }
+    .img-ino2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 40px;
+        box-shadow: 0 5px 25px 0 rgba(0, 41, 83, 0.6);
+    }
+    .imagen_ventas {
+        width: 90%;
+        height: 300px;
+    }
+    .carrouselpad {
+        padding-top: 185px;
+    }
+    .img-carrito {
+        width: 80%;
+        height: 200px;
+    }
+    /* FIN DE IMAGENES*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #carrito {
+        /* border-left-style: outset; */
+        padding: 20px;
+    }
+    .principal2 {
+        width: 100px;
+        height: 100px;
+        border-radius: 8px;
+        text-align: center;
+    }
+    .caja {
+        position: relative;
+    }
+    .texto1 {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        font-size: 20px;
+        color: white;
+        border-bottom: aquamarine;
+        border-bottom-style: double;
+        border-top-style: double;
+        border-bottom-color: #1B4F72;
+        border-top-color: #1B4F72;
+        padding: 15px;
+    }
+    .caja_galeria {
+        position: relative;
+    }
+    .texto_galeria {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        font-size: 20px;
+        color: white;
+        border-bottom: aquamarine;
+        border-bottom-style: double;
+        border-top-style: double;
+        border-bottom-color: #1B4F72;
+        border-top-color: #1B4F72;
+        padding: 10px;
+    }
+    .texto_eventos {
+        position: absolute;
+        top: 5%;
+        left: 3%;
+        font-size: 15px;
+        font-family: fantasy;
+        font-weight: bolder;
+        color: black;
+        padding: 10px;
+    }
+    .texto_eventos p {
+        font-size: 15px;
+    }
+    .plearning_banner2 {
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 150px;
+        width: 100%;
+        opacity: 0.7;
+        filter: blur(6px);
+    }
+    .principal {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .redicon {
+        width: 30px;
+        height: 30px;
+    }
+    .click {
+        width: 80px;
+        height: 80px;
+    }
+    .icop {
+        width: 65%;
+    }
+    .icoresp {
+        width: 170px;
+    }
+    .lineas {
+        width: 100%;
+    }
+    .img-ino {
+        width: 50px;
+        height: 50px;
+    }
+    .img-ino2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 40px;
+        box-shadow: 0 5px 25px 0 rgba(0, 41, 83, 0.6);
+    }
+    .imagen_donaciones {
+        width: 100%;
+        height: 100%;
+    }
+    .imagen_ventas {
+        width: 80%;
+        height: 300px;
+    }
+    .carrouselpad {
+        padding-top: 150px;
+    }
+    .img-carrito {
+        width: 80%;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* IMAGENES */
+    .carrouselpad {
+        padding-top: 173px;
+    }
+    .imagen_ventas {
+        width: 80%;
+        height: 500px;
+    }
+    .imagen-cat {
+        width: 100%;
+        height: 500px;
+        padding: 20px;
+    }
+    .img-banner {
+        width: 100%;
+    }
+    .imagen_principal {
+        text-align: center;
+    }
+    .plearning_banner {
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 550px;
+        width: 100%;
+    }
+    .plearning_banner2 {
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 350px;
+        width: 100%;
+        opacity: 0.7;
+        filter: blur(6px);
+    }
+    .principal2 {
+        width: 200px;
+        height: 200px;
+        border-radius: 8px;
+        text-align: center;
+    }
+    .img-ino {
+        width: 70px;
+        height: 70px;
+    }
+    .imagen_donaciones {
+        width: 100%;
+        height: 100%;
+    }
+    .img-ino2 {
+        width: 70px;
+        height: 70px;
+        border-radius: 40px;
+        box-shadow: 0 5px 25px 0 rgba(0, 41, 83, 0.6);
+    }
+    .cultura {
+        background-color: #1B4F7257;
+        height: 500px;
+        text-align: center;
+    }
+    .img-carrito {
+        width: 80%;
+        height: 200px;
+    }
+    /* FIN IMAGENES */
+    .contactos {
+        width: 70%;
+        text-align: center;
+    }
+    .formulario {
+        width: 70%;
+        
+        border-color: gray;
+        border-radius: 5px;
+        background-color: #1B4F722E;
+    border: 1px solid #9d9595;
+    }
+    .lista {
+        padding-left: 75px;
+        padding-right: 100px;
+        padding-top: 10px;
+    }
+    .centro {
+        padding-top: 60px;
+    }
+    .none,
+    .none2 {
+        height: 400px;
+    }
+    .none h3 {
+        text-align: center;
+    }
+    .general {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .par {
+        padding: 10px;
+        height: 450px;
+        box-shadow: 0 5px 25px 0 rgba(0, 41, 83, 0.6);
+    }
+    .par2 {
+        padding: 10px;
+        height: 550px;
+        box-shadow: 0 5px 25px 0 rgba(0, 41, 83, 0.6);
+    }
+    .principal {
+        width: 400px;
+        height: 100%;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .redicon {
+        width: 50px;
+        height: 50px;
+    }
+    .click {
+        width: 100px;
+        height: 100px;
+    }
+    .lineas {
+        width: 100%;
+        height: 60%;
+    }
+    .icop {
+        width: 85%;
+    }
+    .icoresp {
+        width: 60%;
+    }
+    .columnas {
+        border-left-style: outset;
+        padding-left: 15px;
+    }
+    .filas {
+        border-bottom-style: outset;
+        padding-top: 45px;
+        width: 200px;
+        text-align: center;
+    }
+}
+
+
+/*ANIMACION PARPADEO*/
+
+.text {
+    font-size: 28px;
+    color: #fcfcfc;
+}

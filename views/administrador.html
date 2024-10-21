@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Procem Intermacional</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/ventas.css" rel="stylesheet">
+    <script src="../Controller/vistas.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <h3>Procem Administrador</h3>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+
+                <ul class="list-group">
+                    <li id="Usuarios" onclick="ver('Usuarios')" class="list-group-item btn btn-light">Usuarios</li>
+                    <li id="miembros" onclick="ver('miembros')" class="list-group-item btn btn-light">Procem Miembros</li>
+                    <li id="categorias" onclick="ver('categorias')" class="list-group-item btn btn-light">Categorias</li>
+                    <li id="productos" onclick="ver('productos')" class="list-group-item btn btn-light">Productos</li>
+                    <li id="banner" onclick="ver('banner')" class="list-group-item btn btn-light">Banner</li>
+                    <li id="ventas" onclick="ver('ventas')" class="list-group-item btn btn-light">Ventas</li>
+                    <li id="Galerias" onclick="ver('galerias')" class="list-group-item btn btn-light">Galerias</li>
+                </ul>
+
+
+            </div>
+            <div class="col-md-10">
+                <table class="table">
+                    <div id="tabla">
+
+                    </div>
+
+
+                </table>
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="../Controller/vistas.js"></script>
+
+</html>
