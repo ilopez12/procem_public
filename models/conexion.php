@@ -1,8 +1,8 @@
 <?php
 
-$servername = "panel2.servidoresrapidos.net";
-$username = "fundaci_adminis";
-$password = "2xsBno0wfoLe";
+$servername = "localhost";
+$username = "fundaci_admin";
+$password = "hR6nfZTEHLle";
 // $username = "root";
 // $password = "";
 $database1 = "fundaci_procem";
