@@ -15,10 +15,10 @@
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
+      <!-- <div class="carousel-item active">
         <img src="img/culturaempresarial/bp.png" class="plearning_banner d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item ">
+        </div> -->
+        <div class="carousel-item active">
         <img src="img/culturaempresarial/baner2.png" class="plearning_banner d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
@@ -91,23 +91,23 @@
         <div class="general">
             <div class="row">
                
-                <div class="col-md-8 mt-md-0 mt-4">
+                <div class="col-md-12 mt-md-0 mt-4">
                 	<h3 class="centro"><img class="principal" src="img/procem/pcampus.png" style="width: 40%;height: 15%;" alt=""></h3>
                     <div class="general">
                       <div data-aos="fade-up" data-aos-duration="3000">
                           <p class=" parrafo3">La plataforma educacional "P-CAMPUS" será la mejor escuela internacional para nuestros niños, jóvenes y adultos con una educación integral,<br> con el fin de tener a Panamá por encima de todos los países en la educación virtual y semi presencial.
                           </p>
                       
-                          <div style="text-align: center">
+                          <!-- <div style="text-align: center">
                           <a target="_blank" href="https://p-campus.fundacionprocem.org/" class="boton btn btn-primary">Conoce nuestra plataforma ya!</a>
-                          </div>
+                          </div> -->
                       </div>
                     </div>
                   
                 </div>
-              <div class="col-md-4 mt-md-0 mt-4">
+              <!-- <div class="col-md-4 mt-md-0 mt-4">
                     <img class="principal sombra" style="width: 60%;" src="img/procem/banner2.jpeg" alt="">
-                </div>
+                </div> -->
                 
             </div>
             </div> 

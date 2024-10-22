@@ -115,7 +115,7 @@ $ruta = $_SERVER["REQUEST_URI"];
     <body>
     <header>
     <div class="divnavbar">
-        <div style="background-color: #1B4F72; height: 50px;">
+        <!-- <div style="background-color: #1B4F72; height: 50px;">
         <div class="row">
 
             <div class="col-10"style=" text-align: center;">
@@ -123,12 +123,12 @@ $ruta = $_SERVER["REQUEST_URI"];
             </div>
             <div class="col-1">
             <a href="pronto.php"><img style="width: 50px;" src="../../img/f-icons/tienda.png" alt=""></a>
-            <!-- <img style="width: 50px;" src="../../img/f-icons/store.png" alt=""> -->
+        
             </div>
 
         </div>
                 
-        </div>
+        </div> -->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light sombra">
                         <a class="navbar-brand" href="../../index.php"><img class="icop" style="width: 115px;" src="../../img/procem/logo.png" alt=""></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
