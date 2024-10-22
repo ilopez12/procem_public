@@ -21,8 +21,7 @@
 
         <div class="row">
 
-            <div class="col-md-6 mt-md-0 mt-6">
-            <!-- <a href="leer_mas.php?nombre=evento1"> -->
+            <!-- <div class="col-md-6 mt-md-0 mt-6">
             <div class="caja padd-img">
                 <img class="plearning_banner2 hvr-underline-from-center" src="../../img/slide/slide-4.jpg" alt="">
                 <div class="texto_eventos">
@@ -31,11 +30,20 @@
                 <p style="color: black;">Día: 27,28,29 de Febrero</br>Temas: Teatro Salud Organización Literatura, Arte, Cultura Empresarial</p>
                 </div>
             </div>
+            </div> -->
+            <div class="col-md-12 mt-md-0 mt-12">
+            <!-- <a href="leer_mas.php?nombre=evento1"> -->
+            <div class="caja padd-img">
+                <img class="plearning_banner2 hvr-underline-from-center" src="../../img/slide/slide-4.jpg" alt="">
+                <div class="texto_eventos">
+                <h5 style="font-weight: bold;color: black; text-align:center" class="text-uppercase">Pronto </h5>
+                <p style="color: black;"></p>
+                <!-- <p style="color: black;">Día: 27,28,29 de Febrero</br>Temas: Teatro Salud Organización Literatura, Arte, Cultura Empresarial</p> -->
+                </div>
+            </div>
             <!-- </a> -->
             </div>
-
-            <div class="col-md-6 mt-md-0 mt-6">
-            <!-- <a href="leer_mas.php?nombre=evento2"> -->
+            <!-- <div class="col-md-6 mt-md-0 mt-6">
                 <div class="caja padd-img">
                 <img class="plearning_banner2 hvr-underline-from-center" src="../../img/culturaempresarial/baner6.png" alt="">
                     <div class="texto_eventos">
@@ -44,8 +52,7 @@
                     <p style="color: black;">Temas: Tecnología como herramienta educativa, Administración de Emociones</p>
                     </div>
                 </div>
-                <!-- </a> -->
-            </div>
+            </div> -->
         </div>
     </div>
 

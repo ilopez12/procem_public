@@ -35,13 +35,13 @@ $ruta = $_SERVER["REQUEST_URI"];
         <div style="background-color: #1B4F72; height: 50px;">
         <div class="row">
 
-            <div class="col-10" style=" text-align: center;">
+            <!-- <div class="col-10" style=" text-align: center;">
             <span class="text"><a  href="https://p-campus.fundacionprocem.org/" style="color: #fcfcfc;font-size: 18px;" > CONOCE P-CAMPUS</a>
             </div>
             <div class="col-1">
                 <a href="views/principal/pronto.php"><img style="width: 50px;" src="img/f-icons/tienda.png" alt=""></a>
             
-            </div>
+            </div> -->
 
         </div>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light sombra">
