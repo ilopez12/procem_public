@@ -157,7 +157,7 @@ while($value = mysqli_fetch_array($result)){
                 </p>
                 <br>
                 <p>
-                Le agrádesemos a nuestra gestora la generosidad de Donar las ganancias de sus libros de enseñanza de la Cultura Empresarial y sus materiales didácticos a la Fundación Procem Internacional de Panamá, para que se lleven a cabo todos los proyecto y que la Fundación sea autosostenible.
+                Le agrádesemos a nuestra gestora la generosidad de Donar las ganancias de sus libros de enseñanza de la Cultura Empresarial y sus materiales didácticos a la Fundación Procem Internacional de Panamá, para que se lleven a cabo todos los proyectos y que la Fundación sea autosostenible.
                 </p>
             </div>
         </div>
