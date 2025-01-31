@@ -155,6 +155,10 @@ while($value = mysqli_fetch_array($result)){
                 Asi mismo, logra rendir un homenaje a todos los rostros a nivel Nacional e Internacional de educadores, empresarios, deportistas, médicos, escritores y activistas de las diferentes culturas que forman una cultura Empresarial.
                 Actualmente está dedicada a exponer sus obras de Cultura Empresarial, Novelas y la realización de proyectos de la Fundación.
                 </p>
+                <br>
+                <p>
+                Le agrádesemos a nuestra gestora la generosidad de Donar las ganancias de sus libros de enseñanza de la Cultura Empresarial y sus materiales didácticos a la Fundación Procem Internacional de Panamá, para que se lleven a cabo todos los proyecto y que la Fundación sea autosostenible.
+                </p>
             </div>
         </div>
 

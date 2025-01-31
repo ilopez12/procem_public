@@ -18,6 +18,9 @@
       <!-- <div class="carousel-item active">
         <img src="img/culturaempresarial/bp.png" class="plearning_banner d-block w-100" alt="...">
         </div> -->
+        <!-- <div class="carousel-item active">
+        <img src="img/culturaempresarial/expo.png" class="plearning_banner d-block w-100" alt="...">
+        </div> -->
         <div class="carousel-item active">
         <img src="img/culturaempresarial/baner2.png" class="plearning_banner d-block w-100" alt="...">
         </div>
