@@ -18,10 +18,19 @@
       <!-- <div class="carousel-item active">
         <img src="img/culturaempresarial/bp.png" class="plearning_banner d-block w-100" alt="...">
         </div> -->
-        <!-- <div class="carousel-item active">
-        <img src="img/culturaempresarial/expo.png" class="plearning_banner d-block w-100" alt="...">
-        </div> -->
         <div class="carousel-item active">
+        <img src="img/culturaempresarial/expo.png" class="plearning_banner d-block w-100" style="padding-left: 20%;padding-right: 20%;">
+        </div>
+        <div class="carousel-item">
+        <img src="img/culturaempresarial/expo4.png" class="plearning_banner d-block w-100" style="padding-left: 20%;padding-right: 20%;">
+        </div>
+        <div class="carousel-item">
+        <img src="img/culturaempresarial/expo5.png" class="plearning_banner d-block w-100" style="padding-left: 20%;padding-right: 20%;">
+        </div>
+        <div class="carousel-item">
+        <img src="img/culturaempresarial/expo6.png" class="plearning_banner d-block w-100" style="padding-left: 20%;padding-right: 20%;">
+        </div>
+        <div class="carousel-item">
         <img src="img/culturaempresarial/baner2.png" class="plearning_banner d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
