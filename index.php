@@ -15,16 +15,7 @@
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-      <!-- <div class="carousel-item active">
-        <img src="img/culturaempresarial/bp.png" class="plearning_banner d-block w-100" alt="...">
-        </div> -->
         <div class="carousel-item active">
-        <img src="img/culturaempresarial/expo.png" class="plearning_banner d-block w-100" style="padding-left: 20%;padding-right: 20%;">
-        </div>
-        <div class="carousel-item">
-        <img src="img/culturaempresarial/expo4.png" class="plearning_banner d-block w-100" style="padding-left: 20%;padding-right: 20%;">
-        </div>
-        <div class="carousel-item">
         <img src="img/culturaempresarial/expo5.png" class="plearning_banner d-block w-100" style="padding-left: 20%;padding-right: 20%;">
         </div>
         <div class="carousel-item">
@@ -39,11 +30,11 @@
     </div>
     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+        <span class="sr-only"></span>
     </a>
     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+        <span class="sr-only"></span>
     </a>
     </div>
 
@@ -109,17 +100,10 @@
                       <div data-aos="fade-up" data-aos-duration="3000">
                           <p class=" parrafo3">La plataforma educacional "P-CAMPUS" será la mejor escuela internacional para nuestros niños, jóvenes y adultos con una educación integral,<br> con el fin de tener a Panamá por encima de todos los países en la educación virtual y semi presencial.
                           </p>
-                      
-                          <!-- <div style="text-align: center">
-                          <a target="_blank" href="https://p-campus.fundacionprocem.org/" class="boton btn btn-primary">Conoce nuestra plataforma ya!</a>
-                          </div> -->
                       </div>
                     </div>
                   
                 </div>
-              <!-- <div class="col-md-4 mt-md-0 mt-4">
-                    <img class="principal sombra" style="width: 60%;" src="img/procem/banner2.jpeg" alt="">
-                </div> -->
                 
             </div>
             </div> 

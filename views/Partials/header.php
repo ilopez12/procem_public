@@ -92,19 +92,11 @@ $prefix = $isHome ? '' : '../../';
   <!-- CONTENIDO -->
   <main class="container my-4">
     <?php
-      // Aquí va el contenido de cada página
-      // include ... o tu HTML/PHP específico
+
     ?>
   </main>
 
-  <!-- FOOTER (opcional)
-  <footer class="bg-light py-4 mt-auto">
-    <div class="container text-center">
-      <small>&copy; <?= date('Y') ?> PROCEM. Todos los derechos reservados.</small>
-    </div> -->
-  <!-- </footer> -->
-
-  <!-- ======== JS al final (mismo Bootstrap) ======== -->
+  
 
   <!-- jQuery (solo si tus plugins lo requieren, p.ej. bsPhotoGallery) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
@@ -134,11 +126,6 @@ $prefix = $isHome ? '' : '../../';
   <script>
     window.addEventListener('DOMContentLoaded', () => {
       if (window.AOS) AOS.init({ once: true });
-
-      // Ejemplo: inicializar tu galería si corresponde
-      // if (window.jQuery && typeof jQuery.fn.bsPhotoGallery === 'function') {
-      //   jQuery('.gallery').bsPhotoGallery({ classes: 'col-xl-3 col-lg-4 col-md-6', hasModal: true });
-      // }
     });
   </script>
 </body>
