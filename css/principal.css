@@ -456,9 +456,9 @@ object-fit: cover;
         width: 90%;
         height: 300px;
     }
-    .carrouselpad {
+    /* .carrouselpad {
         padding-top: 185px;
-    }
+    } */
     .img-carrito {
         width: 80%;
         height: 200px;
@@ -572,9 +572,9 @@ object-fit: cover;
         width: 80%;
         height: 300px;
     }
-    .carrouselpad {
+    /* .carrouselpad {
         padding-top: 150px;
-    }
+    } */
     .img-carrito {
         width: 80%;
         height: 200px;
@@ -583,9 +583,9 @@ object-fit: cover;
 
 @media screen and (min-width: 1024px) {
     /* IMAGENES */
-    .carrouselpad {
+    /* .carrouselpad {
         padding-top: 173px;
-    }
+    } */
     .imagen_ventas {
         width: 80%;
         height: 500px;
