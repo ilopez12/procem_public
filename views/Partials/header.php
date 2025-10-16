@@ -69,7 +69,7 @@ $prefix = $isHome ? '' : '../../';
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link text-uppercase" href="<?= $prefix ?>_index.php">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link text-uppercase" href="<?= $prefix ?>index__.php">Inicio</a></li>
             <li class="nav-item"><a class="nav-link text-uppercase" href="<?= $prefix ?>views/principal/nosotros.php">Quienes Somos</a></li>
             <li class="nav-item"><a class="nav-link text-uppercase" href="<?= $prefix ?>views/principal/cultural.php">Cultura Empresarial</a></li>
             <li class="nav-item"><a class="nav-link text-uppercase" href="<?= $prefix ?>views/principal/vecto.php">Vector Empresarial Estudiantil</a></li>
