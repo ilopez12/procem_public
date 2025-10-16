@@ -4,13 +4,27 @@ $ruta = $_SERVER["REQUEST_URI"];
 
     if ($ruta == '/' || $ruta == '/index.php' ){
     ?>
-<link rel="shortcut icon" href="img/procem/logo.png">
-<link href="img/favicon.png" rel="icon">
-<link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
+    <link rel="shortcut icon" href="img/procem/logo.png">
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link  rel = " stylesheet " href = " https://unpkg.com/aos@next/dist/aos.css " /> -->
+    <!-- CSS de terceros primero -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-b7fQj8a9G4b9j3QwVfP1xK1m2o9F5Vbqz3cIuCk3rW8r3G3xqCwqf8YxGm8Yc9iO3nZ1m7C7h7b6k9X2Y5h4gw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link href="css/general.css" rel="stylesheet">
     <link href="css/animaciones.css" rel="stylesheet">
@@ -18,9 +32,6 @@ $ruta = $_SERVER["REQUEST_URI"];
     <link href="css/principal.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/jquery.bsPhotoGallery.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
-	<link  rel = " stylesheet " href = " https://unpkg.com/aos@next/dist/aos.css " />
     
     <script src="js/bootstrap.min.js"></script>
     <script src="js/principal.js"></script>
@@ -34,14 +45,6 @@ $ruta = $_SERVER["REQUEST_URI"];
         <div class="divnavbar">
         <div style="background-color: #1B4F72; height: 50px;">
         <div class="row">
-
-            <!-- <div class="col-10" style=" text-align: center;">
-            <span class="text"><a  href="https://p-campus.fundacionprocem.org/" style="color: #fcfcfc;font-size: 18px;" > CONOCE P-CAMPUS</a>
-            </div>
-            <div class="col-1">
-                <a href="views/principal/pronto.php"><img style="width: 50px;" src="img/f-icons/tienda.png" alt=""></a>
-            
-            </div> -->
 
         </div>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light sombra">
@@ -100,10 +103,10 @@ $ruta = $_SERVER["REQUEST_URI"];
     <link href="../../css/jquery.bsPhotoGallery.css" rel="stylesheet">
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="../../js/fresco.js"></script>
-<link rel="stylesheet" type="text/css" href="../../css/fresco.css"/>
+    <script type="text/javascript" src="../../js/fresco.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/fresco.css"/>
           
-          <link  rel = " stylesheet " href = " https://unpkg.com/aos@next/dist/aos.css " />
+    <link  rel = " stylesheet " href = " https://unpkg.com/aos@next/dist/aos.css " />
 
     <script src="../../js/bootstrap.min.js"></script>
     <script src="../../js/principal.js"></script>
@@ -115,20 +118,6 @@ $ruta = $_SERVER["REQUEST_URI"];
     <body>
     <header>
     <div class="divnavbar">
-        <!-- <div style="background-color: #1B4F72; height: 50px;">
-        <div class="row">
-
-            <div class="col-10"style=" text-align: center;">
-            <span class="text"><a href="https://p-campus.fundacionprocem.org/" style="color: #fcfcfc;font-size: 18px;" > CONOCE P-CAMPUS</a>
-            </div>
-            <div class="col-1">
-            <a href="pronto.php"><img style="width: 50px;" src="../../img/f-icons/tienda.png" alt=""></a>
-        
-            </div>
-
-        </div>
-                
-        </div> -->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light sombra">
                         <a class="navbar-brand" href="../../index.php"><img class="icop" style="width: 115px;" src="../../img/procem/logo.png" alt=""></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
